@@ -1,0 +1,27 @@
+{
+    "broker_host": "localhost",
+    "broker_port": 1430,
+    "devices": [
+        {
+            "type": "temperature",
+            "publish_frequency": 5,
+            "publish_topic": "devices/temp",
+            "std_val": 25,
+            "device_count": 1
+        },
+        {
+            "type": "humidity",
+            "publish_frequency": 7,
+            "publish_topic": "devices/hum",
+            "std_val": 40,
+            "device_count": 1
+        },
+	{
+            "type": "pressure",
+            "publish_frequency": 9,
+            "publish_topic": "devices/pres",
+            "std_val": 1005,
+            "device_count": 1
+        }
+    ]
+}
