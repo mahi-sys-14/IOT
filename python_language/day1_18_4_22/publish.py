@@ -44,7 +44,7 @@ for devices in config['devices']:
 
 #Connecting to broker
 client.connect(host=config["broker_host"], port=config["broker_port"], keepalive=60)
-client.username_pw_set(username="mahi", password="pranali")
+client.username_pw_set(username="adminuser", password="adminuser")
 
 '''
 Start the MQTT client non-blocking loop to listen the broker for messages

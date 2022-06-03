@@ -1,6 +1,6 @@
 {
     "broker_host": "localhost",
-    "broker_port": 1430,
+    "broker_port": 4456,
     "devices": [
         {
             "type": "temperature",

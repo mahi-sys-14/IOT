@@ -1,0 +1,12 @@
+# Javascript code used in the function node.
+# You can edit this code to add and delete more data points
+var message = {}
+let current = new Date();
+let cDate = current.getFullYear() + '-' + (current.getMonth() + 1) + '-' + current.getDate();
+let cTime = current.getHours() + ":" + current.getMinutes() + ":" + current.getSeconds();
+let dateTime = cDate + ' ' + cTime;
+message["timestamp"] = dateTime;
+message["deviceid"] = "sensor101";
+message["device_type"] = "temperature";
+message["value"] = Math.floor((Math.random() * 18) + 18);
+return {payload : message};
